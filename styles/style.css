@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    margin: 10px 50px 50px 50px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ffff0041;
+    padding: 5px 15px;
+    border-style: groove;
+}
+
+h1, h2, h3{
+    text-decoration: underline;
+}
+
+li, #indexList, .ingredients, .steps, .tip {
+    padding: 5px;
+}
+
+#indexList {
+    display: inline-block;
+    list-style: none;
+    outline: 10px dotted  rgba(244, 165, 96, 0.664);
+}
+
+.ingredients{
+    display: inline-block;
+    background-color: rgba(244, 165, 96, 0.664);
+    margin: 50px;
+}
+
+.steps {
+    outline: 10px dotted  rgba(244, 165, 96, 0.664);
+    background-color: rgba(255, 255, 0, 0.137);
+}
+
+.tip {
+    background-color: rgba(128, 128, 128, 0.582);
+    border-style: dashed;
+    margin: 50px;
+}
